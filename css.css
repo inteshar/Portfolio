@@ -4,11 +4,10 @@ body{
     background-size:cover;
 }
 #background_image {    
-    height: 470px;
+    height: 730px;
     padding-top: 50px; 
     background: url(./images/cc-bg-1.jpg);
     color: #fff;
-    margin: auto;
     margin-top: 31px;
     background-size: cover;
 }
@@ -35,6 +34,7 @@ body{
     position: relative;
     overflow: hidden;
     margin-bottom: 12%;
+    margin-top: 8%;
     max-width: 660px;
     background-color: rgba(20, 20, 20, 0.7);
     height: 380px;
