@@ -49,12 +49,20 @@ body{
     margin-right: 3%;
     width: 400px;
     box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
-    text-align: center;
     text-shadow: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    background-image: url(./images/cc-bg-3.jpg);
+    background-image: url(./images/cc-bg-4.jpg);
     background-size: cover;
     border-radius: 5px;
+}
+.card-heading{
+    color: rgb(113, 113, 121);
+    font-size: 28px;
+    font-weight: bold;
+}
+.strong{
+    color: rgb(113, 113, 121);
+    font-weight: bold;
 }
 .card-img-top{
     width: 70px;
@@ -75,7 +83,7 @@ body{
 .card:hover{
     background-image: none;
     background-color: rgb(31, 31, 49);
-    color: #fff;
+    color: rgb(204, 203, 203);
 }
 .zoom {
     transition: transform .2s;
@@ -92,7 +100,7 @@ body{
     height: 190px;
     margin: 0 auto;
 }
-  .expand:hover {
+.expand:hover {
     transform: scale(1.1);
 }
 .card-zoom {
@@ -112,4 +120,8 @@ body{
 .home img{
       width: 50px;
       height: 50px;
+}
+.quantum-logo{
+    width: 150px;
+    height: 100px;
 }
