@@ -82,34 +82,34 @@ body{
     width: 190px;
     height: 190px;
     margin: 0 auto;
-  }
-  .zoom:hover {
+}
+.zoom:hover {
     transform: scale(1.2);
-  }
-  .expand {
+}
+.expand {
     transition: transform .2s;
     width: 190px;
     height: 190px;
     margin: 0 auto;
-  }
+}
   .expand:hover {
     transform: scale(1.1);
-  }
-  .card-zoom {
+}
+.card-zoom {
     transition: transform .2s;
-  }
-  .card-zoom:hover {
+}
+.card-zoom:hover {
     transform: scale(1.1);
-  }
-  #button img{
+}
+#button img{
       width: 50px;
       height: 50px;
-  }
-  .nav-img img{
+}
+.nav-img img{
       width: 20px;
       height: 20px;
-  }
-  .home img{
+}
+.home img{
       width: 50px;
       height: 50px;
-  }
+}
