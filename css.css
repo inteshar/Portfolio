@@ -1,5 +1,7 @@
 body{
     background-color: rgba(229, 228, 240, 0.63);
+    background-image: url(./images/bg4.jpg);
+    background-size:cover;
 }
 #background_image {    
     height: 470px;
@@ -42,12 +44,13 @@ body{
     margin-right: 3%;
     width: inherit;
     height: inherit;
-    box-shadow: 1px 2px 15px 1px rgb(104, 103, 103), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
     text-align: center;
-    text-shadow: 4px 4px 7px rgb(21, 83, 57);
-    color: mintcream;
-    background-image: url(./images/cards_bg.jpg);
+    text-shadow: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-image: url(./images/cc-bg-3.jpg);
     background-size: cover;
+    border-radius: 5px;
 }
 .card-img-top{
     width: 70px;
@@ -68,6 +71,7 @@ body{
 .card:hover{
     background-image: none;
     background-color: rgb(31, 31, 49);
+    color: #fff;
 }
 .zoom {
     transition: transform .2s;
