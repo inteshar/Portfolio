@@ -5,14 +5,14 @@
 <body>
 	<!--
 <input type="text" name="name" id="name" placeholder="Name">
-<button id="btn" onclick="save()">Save</button>
+<button id="btn" onclick="CreateTextFile()">Save</button>
 <script type="text/javascript" src="FileSaver.js"></script>
 -->
-	<form method="get">
+	
 		<input type="text" id="name" placeholder="Name">
 		<input type="text" id="city" placeholder="City">
-		<input type="submit" value="Submit">
-	</form>
+		<button id="btn" onclick="CreateTextFile()"></button>
+	
 
 	<script>
 		var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -34,6 +34,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.js"></script>
 <script type="text/javascript">
 function save(){
+
 var text=document.getElementById('name').value;
 
 var blob = new Blob([text], {type: "text/plain;charset=utf-8"});
