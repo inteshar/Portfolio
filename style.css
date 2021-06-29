@@ -144,3 +144,6 @@ body{
     width: 120px;
     height: 120px;
 }
+#borders-edu{
+    border-top: 1px solid rgb(110, 109, 109);
+}
