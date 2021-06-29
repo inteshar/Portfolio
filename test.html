@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Test</title>
+</head>
+<body>
+<input type="text" name="name" id="name" placeholder="Name">
+<button id="btn" onclick="save()">Save</button>
+<script type="text/javascript" src="FileSaver.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.js"></script>
+<script type="text/javascript">
+function save(){
+var text=document.getElementById('name').value;
+
+var blob = new Blob([text], {type: "text/plain;charset=utf-8"});
+	saveAs(blob, "test.txt");
+}
+</script>
+</html>
