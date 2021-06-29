@@ -51,7 +51,7 @@ body{
     width: auto;
     box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
     text-shadow: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(194, 194, 194);
     background-image: url(./images/cc-bg-4.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -80,11 +80,10 @@ body{
     float: left;
     font-size: 11px;
 }
-
 .card:hover{
     background-image: none;
-    background-color: rgb(31, 31, 49);
-    color: rgb(204, 203, 203);
+    background-color: rgb(168, 168, 172);
+    color: rgb(0, 0, 0);
 }
 .zoom {
     transition: transform .2s;
@@ -125,4 +124,7 @@ body{
 .quantum-logo{
     width: 150px;
     height: 100px;
+}
+#schools{
+    margin-left: 10%;
 }
