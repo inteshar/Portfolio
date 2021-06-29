@@ -33,7 +33,7 @@ body{
 }
 #content{
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 12%;
     margin-top: 8%;
     max-width: 800px;
