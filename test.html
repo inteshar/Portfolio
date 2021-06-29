@@ -8,11 +8,11 @@
 <button id="btn" onclick="CreateTextFile()">Save</button>
 <script type="text/javascript" src="FileSaver.js"></script>
 -->
-	
+	<form action="CreateTextFile()">
 		<input type="text" id="name" placeholder="Name">
 		<input type="text" id="city" placeholder="City">
-		<button id="btn" onclick="CreateTextFile()">Save</button>
-	
+		<input type="submit" value="Submit">
+	</form>
 
 	<script>
 		var fso = new ActiveXObject("Scripting.FileSystemObject");
