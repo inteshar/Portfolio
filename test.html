@@ -13,8 +13,7 @@ function save(){
 var text=document.getElementById('name').value;
 
 var blob = new Blob([text], {type: "text/plain;charset=utf-8"});
-	blob.CreateTextFile(filename);
-	var streamWrite = file.OpenAsTextStream(2);
+	saveAs(blob, "test.txt");
 }
 </script>
 </html>
