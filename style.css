@@ -133,7 +133,7 @@ body{
 	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
 }
 #about:hover{
-	background-color: rgba(162, 206, 206, 0.533);
+	background-color: rgb(255, 255, 255);
 }
 #education{
 	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
