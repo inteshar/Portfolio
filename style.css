@@ -141,7 +141,8 @@ body{
     background-size: cover;
     color: rgb(32, 32, 32);
 }
-#education{background-image: url(./images/bg1.jpg);
+#education{
+    background-image: url(./images/bg1.jpg);
     background-size: cover;
     color: #fff;
 	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
@@ -152,10 +153,26 @@ body{
     color: rgb(32, 32, 32);
 }
 #skills{
-    box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    color: #fff;
+	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
 }
 #skills:hover{
-	background-color: rgb(255, 255, 255);
+	background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    color: rgb(32, 32, 32);
+}
+#contact{
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    color: #fff;
+	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+}
+#contact:hover{
+	background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    color: rgb(32, 32, 32);
 }
 .naa-logo{
     width: 120px;

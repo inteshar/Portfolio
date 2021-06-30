@@ -184,12 +184,44 @@
                                         <li>Ethical Hacking</li>
                                     </ul>
                                 </div>
-                        </div>     
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="container">
+            <div class="row">
+                <div id="contact" class="jumbotron">
+                    <br><img class="card-img-top" src="./images/contacts.png" alt="Card image cap">
+                    <div>
+                    <h1>Contact</h1>
+                        <form method="POST" action="https://formsubmit.co/intesharalam01@gmail.com">
+                            <div class="form-group">
+                                <label for="name">NAME</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL</label>
+                                <input type="email" class="form-control" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                            </div>
+                            <div class="form-group">
+                                <label for="_subject">SUBJECT</label>
+                                <input type="_subject" class="form-control" id="_subject" name="_subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <input type="message" class="form-control" id="message" name="message" required>
+                            </div>
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://inteshar.netlify.app/thankyou.html">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
     </body>
 </html>
