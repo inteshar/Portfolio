@@ -215,6 +215,25 @@ body{
 .box:hover{
     transform: scale(1.1);
 }
+.in{
+    border: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+    width: 300px;
+    height: 40px;
+}
+.b1{
+    background: -webkit-linear-gradient(0deg, #ffff 50%, #a6e1e4 50%);
+    background-size: 800px 800px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.b1:hover{
+    background-position: 300px 0;
+    color: black;
+}
 footer{
     padding: 10px 0;
     background-color: #101010;
