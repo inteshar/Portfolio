@@ -216,7 +216,7 @@ body{
     transform: scale(1.1);
 }
 .input-contact{
-    border: 2px solid #000000;
+    border: 2px solid #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,9 +225,9 @@ body{
     height: 40px;
 }
 .effect-contact{
-    background: -webkit-linear-gradient(0deg, #ffff 50%, #a6e1e4 50%);
+    background: -webkit-linear-gradient(0deg, transparent 50%, #a6e1e4 50%);
     background-size: 800px 800px;
-    border: 2px solid #000000;
+    border: 2px solid #ffff;
     border-radius: 5px;
 }
 .effect-contact:hover{
