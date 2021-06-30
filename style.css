@@ -131,15 +131,30 @@ body{
     margin-right: 10%;
 }
 #about{
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    color: #fff;
 	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
 }
 #about:hover{
-	background-color: rgb(255, 255, 255);
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    color: rgb(32, 32, 32);
 }
-#education{
+#education{background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    color: #fff;
 	box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
 }
 #education:hover{
+	background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    color: rgb(32, 32, 32);
+}
+#skills{
+    box-shadow: 1px 2px 15px 1px rgb(0, 0, 0), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+}
+#skills:hover{
 	background-color: rgb(255, 255, 255);
 }
 .naa-logo{
@@ -166,4 +181,20 @@ body{
 .ty_para{
     padding-top: 3%;
     padding-bottom: 3%;
+}
+.list_box{
+    width:100%;
+    overflow:hidden;
+}
+
+.box{
+    display: inline-block;
+    transition: transform .2s;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 3%;
+    float:left;
+}
+.box:hover{
+    transform: scale(1.1);
 }
