@@ -2,6 +2,7 @@ body{
     background-color: rgb(210, 240, 263);
     width: 100%;
     height: 100%;
+    font-family: 'Comfortaa', cursive;
 
 }
 #background_image {    
@@ -147,4 +148,22 @@ body{
 }
 #borders-edu{
     border-top: 1px solid rgb(110, 109, 109);
+}
+#thankyou{    
+    height: 865px;
+    padding-top: 50px; 
+    font-family: 'Comfortaa', cursive;
+    background: url(./images/cc-bg-1.jpg);
+    color: #fff;
+    background-size: cover;
+}
+#thankyou h1{
+    padding-top: 6%;
+    padding-bottom: 4%;
+    font-size: 70px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.ty_para{
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
