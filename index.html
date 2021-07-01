@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <!--jQuery library--> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -66,7 +67,7 @@
         </div>
 
         <!--About Section-->
-        <div style="margin-top: 2%;" class="container">
+        <div data-aos="zoom-in" style="margin-top: 2%;" class="container">
             <div class="row">
                 <div id="about" class="jumbotron">
                         <br><img class="card-img-top" src="./images/about.png" alt="Card image cap">
@@ -94,7 +95,7 @@
         </div>
 
         <!--Education Section-->
-        <div class="container">
+        <div data-aos="zoom-in-left" class="container">
                 <div class="row">
                     <div id="education" class="jumbotron">
                         <br><img class="card-img-top" src="./images/education.png" alt="Card image cap">
@@ -105,7 +106,7 @@
                         </p>
 
                         
-                        <div id="schools" class="card-zoom">
+                        <div data-aos="slide-left" id="schools" class="card-zoom">
                         <br><img class="quantum-logo" src="./images/quantum.png" alt="Card image cap">
                             <div class="card-body">
                             <h5 class="card-text">
@@ -118,7 +119,7 @@
                         </div>
 
                         <div id="borders-edu">
-                        <div id="schools" class="card-zoom">
+                        <div data-aos="slide-left" id="schools" class="card-zoom">
                             <br><img class="quantum-logo" src="./images/nasa.png" alt="Card image cap">
                                 <div class="card-body">
                                 <h5 class="card-text">
@@ -131,7 +132,7 @@
                         </div>
 
                         <div id="borders-edu">
-                        <div id="schools" class="card-zoom">
+                        <div data-aos="slide-left" id="schools" class="card-zoom">
                             <div class="card-body">
                                 <br><h3 class="card-title card-heading">Mount Everest Higher Secondary School</h3>
                                 <h5 class="card-text">
@@ -144,7 +145,7 @@
                         </div>
 
                         <div id="borders-edu">
-                        <div id="schools" class="card-zoom">
+                        <div data-aos="slide-left" id="schools" class="card-zoom">
                             <br><img class="naa-logo" src="./images/naa.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-text">
@@ -163,14 +164,14 @@
         </div>
 
         <!--Skills Section-->
-        <div class="container">
+        <div data-aos="zoom-in-right" class="container">
             <div class="row">
                 <div id="skills" class="jumbotron">
                     <br><img class="card-img-top" src="./images/skills.png" alt="Card image cap">
                     <div>
                     <h1>Skills</h1>
                         <div class="list_box">
-                            <div class="box">
+                            <div data-aos="slide-right" class="box">
                                 <h2>Key Skills</h2>
                                     <ul>
                                         <li>Active Listner</li>
@@ -182,7 +183,7 @@
                                     </ul> 
                                 </div>
                 
-                                <div  class="box"> 
+                                <div data-aos="slide-left" class="box"> 
                                     <h2>IT Skills</h2>
                                     <ul>
                                         <li>C/C++</li>
@@ -202,7 +203,7 @@
         </div>
 
         <!--Contact Section-->
-        <div class="container">
+        <div data-aos="zoom-in-up" class="container">
             <div class="row">
                 <div id="contact" class="jumbotron">
                     <br><img class="card-img-top" src="./images/contacts.png" alt="Card image cap">
@@ -210,19 +211,19 @@
                     <h1>Contact</h1>
                     <center>
                         <form method="POST" action="https://formsubmit.co/intesharalam01@gmail.com">
-                            <div class="form-group">
+                            <div data-aos="slide-left" class="form-group">
                                 <label for="name">NAME</label>
                                 <input type="text" class="form-control input-contact effect-contact" id="name" name="name" autocapitalize="words" required>
                             </div>
-                            <div class="form-group">
+                            <div data-aos="slide-right" class="form-group">
                                 <label for="email">EMAIL</label>
                                 <input type="email" class="form-control input-contact effect-contact" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                             </div>
-                            <div class="form-group">
+                            <div data-aos="slide-left" class="form-group">
                                 <label for="_subject">SUBJECT</label>
                                 <input type="_subject" class="form-control input-contact effect-contact" id="_subject" name="_subject" autocapitalize="words" required>
                             </div>
-                            <div class="form-group">
+                            <div data-aos="slide-right" class="form-group">
                                 <label for="message">MESSAGE</label>
                                 <textarea name="message" id="message" class="form-control input-contact effect-contact" autocapitalize="sentences" required></textarea>
                             </div>
@@ -251,6 +252,10 @@
             function PreloaderFunc(){
                 Pre_loader.style.display = 'none';
             }
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:270});
         </script>
 </body>
 </html>
