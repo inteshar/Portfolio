@@ -13,7 +13,14 @@
         <title>Mohammad's CV</title>
         <link rel="shortcut icon" type="image/png" href="./images/favicon1.png"/>
     </head>
-    <body>
+
+    <body onload="PreloaderFunc()">
+
+        <!--Preloader-->
+        <div id="preloader">
+            <p style="margin-top: 32%; font-weight: bold;">Loading Please Wait...</p>
+        </div>
+
         <!--Navigation Bar-->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -234,5 +241,12 @@
                 </center>
             </div>
         </footer>
+
+        <script>
+            var Pre_loader = document.getElementById('preloader');
+            function PreloaderFunc(){
+                Pre_loader.style.display = 'none';
+            }
+        </script>
 </body>
 </html>
