@@ -12,6 +12,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
         <title>Mohammad's CV</title>
         <link rel="shortcut icon" type="image/png" href="./images/favicon1.png"/>
+        <script>
+            var sound = new Audio();
+            sound.src = "./audio/button_click.mp3";
+        </script>
     </head>
 
     <body onload="PreloaderFunc()">
@@ -31,14 +35,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index" class="navbar-brand">Mohammad's CV</a>
+                    <a href="index" onmousedown="sound.play()" class="navbar-brand">Mohammad's CV</a>
                 </div>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about" class="nav-img card-zoom"><img src="./images/about.png" alt="about"> About </a></li>
-                        <li><a href="#education" class="nav-img card-zoom"><img src="./images/education.png" alt="education"> Education </a></li>
-                        <li><a href="#skills" class="nav-img card-zoom"><img src="./images/skills.png" alt="skills"> Skills </a></li>
-                        <li><a href="#contact" class="nav-img card-zoom"><img src="./images/contacts.png" alt="contact"> Contact </a></li>
+                        <li><a href="#about" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/about.png" alt="about"> About </a></li>
+                        <li><a href="#education" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/education.png" alt="education"> Education </a></li>
+                        <li><a href="#skills" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/skills.png" alt="skills"> Skills </a></li>
+                        <li><a href="#contact" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/contacts.png" alt="contact"> Contact </a></li>
                     </ul>
                 </div>
             </div>
