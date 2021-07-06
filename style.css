@@ -266,6 +266,10 @@ body{
     width: 220px;
     height: 210px;
 }
+.cisco-logo{
+    width: 220px;
+    height: 210px;
+}
 #professional{
     background-image: url(./images/bg1.jpg);
     background-size: cover;
