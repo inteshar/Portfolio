@@ -42,7 +42,15 @@
                         <li><a href="#about" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/about.png" alt="about"> About </a></li>
                         <li><a href="#education" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/education.png" alt="education"> Education </a></li>
                         <li><a href="#skills" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/skills.png" alt="skills"> Skills </a></li>
-                        <li><a href="#contact" onmousedown="sound.play()" class="nav-img card-zoom"><img src="./images/contacts.png" alt="contact"> Contact </a></li>
+                        
+                        <li class="nav-item dropdown">
+                        <a onmousedown="sound.play()" class="nav-link dropdown-toggle nav-img card-zoom" href="#" id="navbardrop" data-toggle="dropdown">
+                            <img src="./images/more.png"> More</a>
+                        <div class="dropdown-menu">
+                            <a href="#professional" onmousedown="sound.play()" class="nav-img card-zoom dropdown-item"><img src="./images/trainigs.png" alt="Professional Trainings"> Professional Trainings</a><br>
+                            <a href="#contact" onmousedown="sound.play()" class="nav-img card-zoom dropdown-item"><img src="./images/contacts.png" alt="contact"> Contact </a>
+                        </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -204,7 +212,7 @@
         <!--Professional Trainings Section-->
         <div data-aos="zoom-in-left" class="container">
             <div class="row">
-                <div id="education" class="jumbotron">
+                <div id="professional" class="jumbotron">
                     <br><img class="card-img-top" src="./images/trainigs.png" alt="Card image cap">
                     <div>
                     <h1>Professional Trainings</h1>
