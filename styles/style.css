@@ -294,5 +294,6 @@ footer{
 
 }
 .dropdown-button{
-    background-color: #fff;
+    background-color: #222222;
+    color: rgb(148, 148, 148);
 }
