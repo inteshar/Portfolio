@@ -21,6 +21,10 @@ body{
     margin-top: 31px;
     background-size: cover;
 }
+.basicinfo{
+    height: 50px;
+    width: 50px;
+}
 #content h2{
 	font-size:16px;
 	font-weight: bolder;
